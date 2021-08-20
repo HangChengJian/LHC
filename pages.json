@@ -1,0 +1,589 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "嗅嗅识香",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"disableScroll":true
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"enablePullDownRefresh": true,
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/goodsCart/goodsCart",
+			"style": {
+				"navigationBarTitleText": "购物袋",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/goodsDetails/goodsDetails",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				 "navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/knowPage/knowPage",
+			"style": {
+				"navigationBarTitleText": "公告详情",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/searchList/searchList",
+			"enablePullDownRefresh": true,
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/logistics/logistics",
+			"style": {
+				"navigationBarTitleText": "物流查询",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/classifydet/classifydet",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/exdress/exdress",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/newarrival/newarrival",
+			"style": {
+				"navigationBarTitleText": "新品推荐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/selarea/selarea",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/orangetune/orangetune",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/specials/specials",
+			"style": {
+				"navigationBarTitleText": "香水专题",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "嗅嗅识香",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/wxlogin/wxlogin",
+			"style": {
+				"navigationBarTitleText": "微信授权",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/addressUpdate/addressUpdate",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/affirmOrder/affirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/userRegister/userRegister",
+			"style": {
+				"navigationBarTitleText": "嗅嗅识香",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		},
+		{
+			"path": "pages/loginVerification/loginVerification",
+			"style": {
+				"navigationBarTitleText": "嗅嗅识香",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+			}
+		}
+	    ,{
+            "path" : "pages/wxpay/wxpay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+                "enablePullDownRefresh": false
+				
+            }
+            
+        },{
+            "path" : "pages/wekspecial/wekspecial",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "每周特惠",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+            }
+        },
+		{
+			//新人专享
+			"path" : "pages/exclusive/exclusive",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+		    }
+		}
+        ,{
+            "path" : "pages/specials/specialdets",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/prefecture/prefecture",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff"
+		    }
+		}
+        ,{
+            "path" : "pages/newdiscount/newdiscount",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新人大礼",
+                "enablePullDownRefresh": false,
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+            }
+            
+        }
+    ],
+	//分包
+	"subpackages": [{
+		"root": "pagesA",
+		"pages": [{
+				"path": "userOrder/userOrder",
+				"style": {
+					"navigationBarTitleText": "我的订单",
+					"navigationBarBackgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "orderstatus/orderunpaid",
+				"enablePullDownRefresh": true,
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "collect/collect",
+				"style": {
+					"navigationBarTitleText": "收藏",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "perinfo/perinfo",
+				"style": {
+					"navigationBarTitleText": "个人信息",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "wallet/wallet",
+				"style": {
+					"navigationBarTitleText": "钱包",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "wallet/balacedet",
+				"style": {
+					"navigationBarTitleText": "账户余额明细",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "wallet/addbkcd",
+				"style": {
+					"navigationBarTitleText": "添加银行卡",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "coproblem/coproblem",
+				"style": {
+					"navigationBarTitleText": "常见问题",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "setup/setup",
+				"style": {
+					"navigationBarTitleText": "设置",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "setup/accass",
+				"style": {
+					"navigationBarTitleText": "账号关联",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff",
+					"disableScroll": true
+				}
+			},
+			{
+				"path": "evaluate/evaluate",
+				"style": {
+					"navigationBarTitleText": "评价",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "evaluateFrom/evaluateFrom",
+				"style": {
+					"navigationBarTitleText": "评价",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "evaluateDetails/evaluateDetails",
+				"style": {
+					"navigationBarTitleText": "评价",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "couponList/couponList",
+				"style": {
+					"navigationBarTitleText": "优惠券",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "available/available",
+				"style": {
+					"navigationBarTitleText": "优惠券可用商品",
+					"navigationBarBackgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "allcomment/allcomment",
+				"style": {
+					"navigationBarTitleText": "全部评论",
+					"navigationBarBackgroundColor": "#fff",
+					"backgroundColor": "#fff"
+				}
+			}
+		]
+	}, {
+		"root": "pagesB",
+		"pages": [{
+				"path": "checkrule/checkrule",
+				"style": {
+					"navigationBarTitleText": "积分签到规则"
+				}
+			},
+			{
+				"path": "porecord/porecord",
+				"style": {
+					"navigationBarTitleText": "积分记录"
+				}
+			},
+			{
+				"path": "exchange/exchange",
+				"style": {
+					"navigationBarTitleText": "积分",
+					"navigationBarBackgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "report/report",
+				"style": {
+					"navigationBarTitleText": "积分签到",
+					"navigationBarBackgroundColor": "#fff"
+				}
+			},
+			{
+				"path": "viewPage/viewPage",
+				"style": {
+					"navigationBarTitleText": "主题详情",
+					"navigationBarBackgroundColor": "#fff"
+				}
+			}
+		]
+	}],
+	//分包预加载
+	"preloadRule": {
+		// "packageA/pages/dog/dog": {
+		//   "network": "all",
+		//   "packages": ["packageB"]
+		// }
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#333",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/selhome.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/tabbar/menu.png",
+				"selectedIconPath": "static/tabbar/selmenu.png",
+				"text": "品牌"
+			},
+			{
+				"pagePath": "pages/goodsCart/goodsCart",
+				"iconPath": "static/tabbar/shop.png",
+				"selectedIconPath": "static/tabbar/selshop.png",
+				"text": "购物袋"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/me.png",
+				"selectedIconPath": "static/tabbar/selme.png",
+				"text": "我的"
+			}
+		]
+
+	},
+	"condition": {
+		//模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式（list 的索引项）
+		"list": [{
+				"name": "个人信息", //模式名称 
+				"path": "pagesA/perinfo/perinfo", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "钱包", //模式名称 
+				"path": "pagesA/wallet/wallet", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "常见问题", //模式名称 
+				"path": "pagesA/coproblem/coproblem", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "设置", //模式名称 
+				"path": "pagesA/setup/setup", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "购物车", //模式名称
+				"path": "pages/goodsCart/goodsCart", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "物流查询", //模式名称
+				"path": "pages/logistics/logistics", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。,
+			},
+			{
+				"name": "已付款", //模式名称
+				"path": "pagesA/orderstatus/orderunpaid", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "我的订单", //模式名称
+				"path": "pagesA/userOrder/userOrder", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "积分", //模式名称
+				"path": "pagesB/exchange/exchange", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "积分签到", //模式名称
+				"path": "pagesB/report/report", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "收藏", //模式名称
+				"path": "pagesA/collect/collect", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "评价", //模式名称
+				"path": "pagesA/evaluate/evaluate", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "提交评价", //模式名称
+				"path": "pagesA/evaluateFrom/evaluateFrom", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "评价详情", //模式名称
+				"path": "pagesA/evaluateDetails/evaluateDetails",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "登录", //模式名称
+				"path": "pages/login/login",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "微信授权", //模式名称
+				"path": "pages/wxlogin/wxlogin",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "地址管理", //模式名称
+				"path": "pages/address/address",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "编辑地址", //模式名称
+				"path": "pages/addressUpdate/addressUpdate",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "优惠券", //模式名称
+				"path": "pagesA/couponList/couponList",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "确认订单", //模式名称
+				"path": "pages/affirmOrder/affirmOrder",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "注册", //模式名称
+				"path": "pages/userRegister/userRegister",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "验证手机号", //模式名称
+				"path": "pages/loginVerification/loginVerification",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "新人专享", //模式名称
+				"path" : "pages/exclusive/exclusive",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			},
+			{
+				"name": "特惠", //模式名称
+				"path" : "pages/wekspecial/wekspecial",
+				"query": "" //启动参数，在页面的onLoad函数里面得到。
+			}
+		]
+	}
+}

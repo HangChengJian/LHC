@@ -1,0 +1,11 @@
+{
+  "name": "markrgba-css-rpx",
+  "version": "1.0.4",
+  "description": "一个语义化css基础库",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "markrgba",
+  "license": "ISC"
+}

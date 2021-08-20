@@ -1,0 +1,245 @@
+/* @font-face {
+  font-family: 'iconfont'; 
+  src: url('//at.alicdn.com/t/font_2393030_je34jamd9ip.eot');
+  src: url('//at.alicdn.com/t/font_2393030_je34jamd9ip.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2393030_je34jamd9ip.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2393030_je34jamd9ip.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2393030_je34jamd9ip.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2393030_je34jamd9ip.svg#iconfont') format('svg');
+} */
+@font-face {
+  font-family: 'iconfont';  /* Project id 2393030 */
+  src: url('//at.alicdn.com/t/font_2393030_lm7xt84p7w.woff2?t=1629196350310') format('woff2'),
+       url('//at.alicdn.com/t/font_2393030_lm7xt84p7w.woff?t=1629196350310') format('woff'),
+       url('//at.alicdn.com/t/font_2393030_lm7xt84p7w.ttf?t=1629196350310') format('truetype');
+}
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+view {
+	color: #333;
+}
+.pt-f{
+	position: fixed;
+}
+.bs-bb {
+	box-sizing: border-box;
+}
+
+.ov-h {
+	overflow: hidden;
+}
+
+/* 字体颜色 */
+.color-5d {
+	color: #5D5D5D;
+}
+
+.color-fff {
+	color: #fff;
+}
+
+.color-333 {
+	color: #333;
+}
+
+.color-8f {
+	color: #8F8F8F;
+}
+
+.color-cb {
+	color: #CBCBCB;
+}
+
+.color-60 {
+	color: #606060
+}
+
+.color-15 {
+	color: #151515;
+}
+
+.color-9b {
+	color: #9B9B9B;
+}
+
+.color-9 {
+	color: #999;
+}
+
+.color-6 {
+	color: #666;
+}
+
+.color-222 {
+	color: #222;
+}
+
+.color-4b {
+	color: #4B4B4B;
+}
+
+.color-cf {
+	color: #CFC6A8;
+}
+
+.color-15 {
+	color: #151515;
+}
+
+.color-aaa {
+	color: #AAAAAA;
+}
+
+.color-9e {
+	color: #9E9E9E;
+}
+
+.color-a29 {
+	color: #A2925C;
+}
+
+.color-9f {
+	color: #9F9F9F;
+}
+
+.color-96 {
+	color: #9F9F9F;
+}
+
+.color-d0 {
+	color: #D0BC85;
+}
+
+.color-94 {
+	color: #940707;
+}
+.color-b2{
+	color: #B2B2B2;
+}
+.color-a1{
+	color: #B2B2B2;
+}
+.color-c0{
+	color:#C0C0C0;
+}
+.c-62{
+	color:#626262;
+}
+.c-95{
+	color:#959595;
+}
+.c-63{
+	color:#636363;
+}
+/* 背景色 */
+.bg-222 {
+	background: #222;
+}
+.bg-a1 {
+	background: #A1A1A1;
+}
+.bg-f6 {
+	background: #F6F6F6;
+}
+
+.bg-d {
+	background: #ddd;
+}
+.bg-f7{
+	background: #F7F7F7;
+}
+.bg-e6{
+	background: #E6E6E6;
+}
+.bg-d2{
+	background: #D2D2D2;
+}
+/* 外边距 */
+.mb-60 {
+	margin-bottom: 60rpx;
+}
+.mt-60 {
+	margin-top: 60rpx;
+}
+.mt-70{
+	margin-top: 70rpx;
+}
+.mt-260{
+	margin-top: 260rpx;
+}
+.mt-90 {
+	margin-top: 90rpx;
+}
+.mt-124{
+	margin-top: 124rpx;
+}
+.mt-100{
+	margin-top: 100rpx;
+}
+.mt-80{
+	margin-top: 80rpx;
+}
+.mt-260{
+	margin-top: 260rpx;
+}
+.mt-234{
+	margin-top: 234rpx;
+}
+.mt-193{
+	margin-top: 193rpx;
+}
+.mt-63{
+	margin-top: 63rpx;
+}
+.mt-272{
+	margin-top: 172rpx;
+}
+/* 内边距 */
+.pt-60 {
+	padding-top: 60rpx;
+}
+
+/* 边框 */
+.bd-15 {
+	border: 1px solid #151515;
+}
+.bd-a2 {
+	border: 1px solid #A2925C;
+}
+.bd-d0 {
+	border: 1px solid #D0BC85;
+}
+
+.bd-bc {
+	border: 1px solid #BCBCBC;
+}
+
+.bd-9 {
+	border: 1px solid #999;
+}
+.bt-ed{
+	border-top: 1px solid #EDEDED;
+}
+.bl-ed{
+	border-left: 1px solid #EDEDED;
+}
+.bb-ea{
+	border-bottom: 1px solid #EAEAEA;
+}
+/* 行高 */
+.lh-200{
+	line-height: 200rpx;
+}
+/* flex子元素自适应宽度 */
+.il-box {
+	display: inline-block;
+	display: inline;
+	zoom: 1;
+}
